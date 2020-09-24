@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html lang="lt">
-  <head>
-    <title>HTML Inline stiliai</title>
-    <meta charset="utf-8" />
-    <style>
-      .antrastesFoto {
-        width: 400px;
-        height: 150px;
-      }
 
-      .centruota {
-        width: 60%;
-        margin: 0 auto;
-      }
+<head>
+  <title>HTML Inline stiliai</title>
+  <meta charset="utf-8" />
+  <style>
+    .antrastes-foto {
+      width: 400px;
+      height: 150px;
+    }
 
-      .turinioTekstas {
-        text-align: justify;
-      }
+    .centruota {
+      width: 60%;
+      margin: 0 auto;
+    }
 
-      .pavadinimas {
-        text-align: center;
-      }
+    .turinio-tekstas {
+      text-align: justify;
+    }
 
-      .nuspalvotasTekstas {
-        color: red;
-      }
+    .pavadinimas {
+      text-align: center;
+    }
 
-      .fonoSpalva {
-        background: pink;
-      }
-    </style>
-  </head>
+    .nuspalvotas-tekstas {
+      color: red;
+    }
 
-  <body>
-    <div class="fonoSpalva">
-      <div class="centruota">
-        <div class="pavadinimas">
-          <h2><a href="https://www.delfi.lt/">Delfi naujienos</a></h2>
-          <img class="antrastesFoto" src="https://g2.dcdn.lt/glt/c/delfi-logo/delfi-og-image.jpg" alt="delfi" title="delfi"/>
-        </div>
-        <p>
-          Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu būdu norėtų dirbti 81 proc. darbuotojų,<br>
-          tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai. Didžiausia problema yra vadovų nepakankamas pasitikėjimas savo darbuotojais:<br>
-          jie mano, kad neprižiūrimi darbuotojai negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
-        </p>
-        <hr>
-        <h4>Naujienos internete:</h4>
-        <ul>
-          <li><a href="https://www.delfi.lt/">Delfi</a></li>
-          <li><a href="https://www.15min.lt/">15 min</a></li>
-          <li><a href="https://www.lrytas.lt/">Lietuvos rytas</a></li>
-          <li><a href="https://www.vz.lt/">Verslo žinios</a></li>
-        </ul>
-        <hr>
-        <div class="turinioTekstas">
-          <p>
-            Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu būdu norėtų dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai. Didžiausia
-            problema yra vadovų nepakankamas pasitikėjimas savo darbuotojais: jie mano, kad neprižiūrimi darbuotojai negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
-          </p>
-          <p>
-            <strong>
-              Pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu būdu norėtų dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai. Didžiausia problema
-              yra vadovų nepakankamas pasitikėjimas savo darbuotojais: jie mano, kad neprižiūrimi darbuotojai negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
-            </strong>
-          </p>
-          <p>
-            <span style="font-style: italic;">
-              Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu būdu norėtų dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai. Didžiausia
-              problema yra vadovų nepakankamas pasitikėjimas savo darbuotojais: jie mano, kad neprižiūrimi darbuotojai negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
-            </span>
-          </p>
-          <p>
-            Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu būdu norėtų dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai.
-            <span class="nuspalvotasTekstas">Didžiausia problema yra vadovų nepakankamas pasitikėjimas savo darbuotojais: jie mano, kad neprižiūrimi darbuotojai negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.</span>
-          </p>
-        </div>
+    .fono-spalva {
+      background: pink;
+    }
+    
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
 
-        <footer>Autoriu teises saugomos</footer>
+<body>
+  <div class="fono-spalva">
+    <div class="centruota">
+      <div class="pavadinimas">
+        <h2 style="margin-top: 0"><a href="https://www.delfi.lt/">Delfi naujienos</a></h2>
+        <img class="antrastes-foto" src="https://g2.dcdn.lt/glt/c/delfi-logo/delfi-og-image.jpg" alt="delfi"
+          title="delfi" />
       </div>
+      <p>
+        Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu būdu
+        norėtų dirbti 81 proc. darbuotojų,<br>
+        tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai. Didžiausia problema yra vadovų nepakankamas
+        pasitikėjimas savo darbuotojais:<br>
+        jie mano, kad neprižiūrimi darbuotojai negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
+      </p>
+      <hr>
+      <h4>Naujienos internete:</h4>
+      <ul>
+        <li><a href="https://www.delfi.lt/">Delfi</a></li>
+        <li><a href="https://www.15min.lt/">15 min</a></li>
+        <li><a href="https://www.lrytas.lt/">Lietuvos rytas</a></li>
+        <li><a href="https://www.vz.lt/">Verslo žinios</a></li>
+      </ul>
+      <hr>
+      <div class="turinio-tekstas">
+        <p>
+          Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu
+          būdu norėtų dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai.
+          Didžiausia
+          problema yra vadovų nepakankamas pasitikėjimas savo darbuotojais: jie mano, kad neprižiūrimi darbuotojai
+          negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
+        </p>
+        <p>
+          <strong>
+            Pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu būdu norėtų
+            dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai. Didžiausia
+            problema
+            yra vadovų nepakankamas pasitikėjimas savo darbuotojais: jie mano, kad neprižiūrimi darbuotojai negali
+            pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
+          </strong>
+        </p>
+        <p>
+          <span style="font-style: italic;">
+            Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu
+            būdu norėtų dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai.
+            Didžiausia
+            problema yra vadovų nepakankamas pasitikėjimas savo darbuotojais: jie mano, kad neprižiūrimi darbuotojai
+            negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami biuruose.
+          </span>
+        </p>
+        <p>
+          Lietuvoje pernai metais „Spinter“ atlikto tyrimo metu išsiaiškinta, kad laisvai bet kada dirbti nuotoliniu
+          būdu norėtų dirbti 81 proc. darbuotojų, tačiau tokią galimybę teturi tik 5 proc, – rašoma pranešime spaudai.
+          <span class="nuspalvotas-tekstas">Didžiausia problema yra vadovų nepakankamas pasitikėjimas savo darbuotojais:
+            jie mano, kad neprižiūrimi darbuotojai negali pasiekti tokio efektyvumo lygio, kokį pasiekia dirbdami
+            biuruose.</span>
+        </p>
+      </div>
+      <footer>Autoriu teises saugomos</footer>
     </div>
-  </body>
+  </div>
+</body>
 </html>
